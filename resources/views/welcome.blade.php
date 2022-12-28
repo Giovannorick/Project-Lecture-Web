@@ -7,30 +7,29 @@
         <div class="d-flex gap-3 align-items-center">
           
           <div>
-            <p class="title-content mb-2">Good Morning, Jethro</p>
+            <p class="title-content mb-2">Good Morning, User</p>
           </div>
         </div>
       </nav>
     </section>
     <section class="d-flex  flex-column gap-4">
       <div class="d-flex justify-content-between align-items-center gap-3">
-        <h4 class="title-section-content">Book List</h4>
+        <h4 class="title-section-content">Movies List</h4>
       </div>
       <div class="d-flex gap-3 flex-wrap">
         <div class="product-card">
-          <img
-            src="./assets/images/nike_red.png"
-            alt="Nike Red"
+          <img class="rounded"
+            src="{{asset('img/1.jpg')}}"
+            alt="Error"
             width="260"
-            height="180"
+            height="360"
           />
           <div class="product-detail pt-3">
             <div>
-              <p class="label-detail mb-1">7 Colours</p>
-              <p class="title-detail">Nike Red Shoe 77</p>
+              <p class="title-detail">Avengers : Infinity Wars</p>
             </div>
             <button
-              class="btn btn-fav active"
+              class="btn btn-fav"
               aria-label="Button Favorite"
               onclick="handleFavorite(this)"
             >
@@ -49,24 +48,23 @@
               <p class="price-detail">Rp 220.000</p>
             </div>
             <button
-              class="buy-product button btn-rounded active"
-              onclick="handleBuy(this)"
-            >
-              Buy Now
-            </button>
+            class="buy-product button btn-rounded"
+            onclick="handleBuy(this)"
+          >
+            Buy Now
+          </button>
           </div>
         </div>
         <div class="product-card">
-          <img
-            src="./assets/images/nike_airforce.png"
-            alt="Nike Airforce"
+          <img class="rounded"
+            src="{{asset('img/2.jpg')}}"
+            alt="Error"
             width="260"
-            height="180"
+            height="360"
           />
           <div class="product-detail pt-3">
             <div>
-              <p class="label-detail mb-1">4 Colours</p>
-              <p class="title-detail">Nike Airforce uHigh</p>
+              <p class="title-detail">Black Panther</p>
             </div>
             <button
               class="btn btn-fav"
@@ -96,16 +94,15 @@
           </div>
         </div>
         <div class="product-card">
-          <img
-            src="./assets/images/nike_kiger.png"
-            alt="Nike Kiger"
-            width="260"
-            height="180"
-          />
+          <img class="rounded"
+          src="{{asset('img/3.jpg')}}"
+          alt="Error"
+          width="260"
+          height="360"
+        />
           <div class="product-detail pt-3">
             <div>
-              <p class="label-detail mb-1">2 Colours</p>
-              <p class="title-detail">Nike Kiger 1 Mid</p>
+              <p class="title-detail">Captain America : Civil War</p>
             </div>
             <button
               class="btn btn-fav"
@@ -124,7 +121,7 @@
           <div class="product-detail pt-4">
             <div>
               <p class="label-detail mb-1">Price:</p>
-              <p class="price-detail">Rp 990.000</p>
+              <p class="price-detail">Rp 220.000</p>
             </div>
             <button
               class="buy-product button btn-rounded"
@@ -135,19 +132,18 @@
           </div>
         </div>
         <div class="product-card">
-          <img
-            src="./assets/images/nike_red.png"
-            alt="Nike Red"
+          <img class="rounded"
+            src="{{asset('img/4.jpg')}}"
+            alt="Error"
             width="260"
-            height="180"
+            height="360"
           />
           <div class="product-detail pt-3">
             <div>
-              <p class="label-detail mb-1">7 Colours</p>
-              <p class="title-detail">Nike Red Shoe 77</p>
+              <p class="title-detail">Iron Man 3</p>
             </div>
             <button
-              class="btn btn-fav active"
+              class="btn btn-fav"
               aria-label="Button Favorite"
               onclick="handleFavorite(this)"
             >
@@ -166,7 +162,7 @@
               <p class="price-detail">Rp 220.000</p>
             </div>
             <button
-              class="buy-product button btn-rounded active"
+              class="buy-product button btn-rounded"
               onclick="handleBuy(this)"
             >
               Buy Now
